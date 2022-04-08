@@ -1667,7 +1667,14 @@ input, select, textarea {
 	height: 5.4em;
 	border-radius: 50%;
 }
+@media screen and (max-width: 736px) {
 
+	.logo .profile-picture {
+		width: 4.6em;
+		height: 4.6em;
+	}
+
+}
 small{
 	font-size: 0.8em;
 }
