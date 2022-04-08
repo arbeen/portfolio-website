@@ -1668,12 +1668,16 @@ input, select, textarea {
 	border-radius: 50%;
 }
 @media screen and (max-width: 736px) {
-
 	.logo .profile-picture {
 		width: 4.6em;
 		height: 4.6em;
 	}
-
+}
+@media screen and (max-width: 480px) {
+	.logo .profile-picture {
+		width: 4.6em;
+		height: 4.6em;
+	}
 }
 small{
 	font-size: 0.8em;
